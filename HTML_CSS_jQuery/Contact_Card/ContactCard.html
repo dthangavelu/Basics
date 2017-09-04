@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Contact Page</title>                
+        <script src="js/jquery-3.2.1.min.js"></script>
+        <script src="script.js"></script>        
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+    </head>
+    <body>        
+        <div id="wrapper">
+            <span>Contact Page</span>
+            <div id="container">
+                <div id="inputDiv">
+                    <form>
+                        <table>                  
+                            <tbody>
+                                <tr>
+                                    <td>First Name: </td>
+                                    <td><input type="text" placeholder="First Name" id="first_name"></td>
+                                </tr>
+                                <tr>
+                                    <td>Last Name: </td>
+                                    <td><input type="text" placeholder="Last Name" id="last_name"></td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2">Description: </td>                                
+                                </tr>   
+                                <tr>
+                                    <td  colspan="2"><textarea placeholder="Enter description" id="form_desc"></textarea></td>
+                                </tr>                         
+                            </tbody>                   
+                        </table>
+                        <input type="submit" id="submit" value="Add User" />
+                    </form>
+                </div>
+                <div id="displayDiv">
+                </div>
+            </div>           
+        </div>        
+    </body>
+</html>
